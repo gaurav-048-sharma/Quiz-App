@@ -35,9 +35,6 @@ const questions = [
             {text: "Sperm whale", correct: false}
         ]
     },
-    {
-
-    }
 ];
 
 const questionElement = document.getElementById("question");
