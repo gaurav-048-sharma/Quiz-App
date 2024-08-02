@@ -13,7 +13,7 @@ const questions = [
         answers: [
             {text: "Monaco", correct: false},
             {text: "Nauru", correct: false},
-            {text: "Tuvalu", correct: false}
+            {text: "Tuvalu", correct: false},
             {text: "Vatican City", correct: true},
         ]
     },
