@@ -11,12 +11,33 @@ const questions = [
     {
         question : "Which is the smallest country in the world",
         answers: [
-            {text: "Vatican City", correct: true},
             {text: "Monaco", correct: false},
             {text: "Nauru", correct: false},
             {text: "Tuvalu", correct: false}
+            {text: "Vatican City", correct: true},
         ]
     },
+    {
+        question : "Which is the largest planet in our solar system",
+        answers: [
+            {text: "Saturn", correct: false},
+            {text: "Uranus", correct: false},
+            {text: "Jupiter", correct: true},
+            {text: "Neptune", correct: false}
+        ]
+    },
+    {
+        question : "Which is the largest mammal in the world",
+        answers: [
+            {text: "Fin whale", correct: false},
+            {text: "Humpback whale", correct: false},
+            {text: "Blue whale", correct: true},
+            {text: "Sperm whale", correct: false}
+        ]
+    },
+    {
+
+    }
 ];
 
 const questionElement = document.getElementById("question");
